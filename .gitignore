@@ -1,7 +1,14 @@
-*.class
+#
+*.sql
+*.org
+*.txt
+*~
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# mysql directories
+mysql_autoload
+mysql_conf.d
+mysql_datadir
+mysql_shr
 
 # Package Files #
 *.jar

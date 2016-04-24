@@ -1,12 +1,12 @@
-build:
-	docker-compose build
+all: build up
 
-build-tomcat:
+build:
 	docker-compose build tomcat
 up:
 	docker-compose up -d
 
 clean: stop rm
+
 stop:
 	docker-compose stop
 rm:

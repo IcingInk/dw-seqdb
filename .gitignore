@@ -1,6 +1,9 @@
 #
 *.txt
 *.swp
+.Rhistory
+README.html
+
 # mysql directories
 mysql_autoload/seqdb_genotyping225.sql
 mysql_conf.d

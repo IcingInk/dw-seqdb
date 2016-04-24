@@ -1,14 +1,18 @@
 #
-*.sql
-*.org
 *.txt
-*~
-
+*.swp
 # mysql directories
-mysql_autoload
+mysql_autoload/seqdb_genotyping225.sql
 mysql_conf.d
 mysql_datadir
 mysql_shr
+
+# log-files
+srv/logs/*log
+srv/logs/*txt
+
+# the seqdbweb.war
+srv/releases/seqdbweb.war
 
 # Package Files #
 *.jar

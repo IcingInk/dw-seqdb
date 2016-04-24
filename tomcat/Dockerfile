@@ -25,11 +25,11 @@ RUN mkdir -p \
 /seqdb_working/sanger_sequences \
 /seqdb_working/sanger_fragments
 
-#mkdir /mnt/sentinel_share
+RUN mkdir -p /mnt/sentinel_share
 
-#RUN chmod 777 /seqdb_working/seqdbweb
-#RUN chmod 777 /seqdb_working/sanger_sequences
-#RUN chmod 777 /seqdb_working/sanger_fragments
+RUN chmod 777 /seqdb_working/seqdbweb
+RUN chmod 777 /seqdb_working/sanger_sequences
+RUN chmod 777 /seqdb_working/sanger_fragments
 
 ENV TOMCAT_VERSION 7.0.69
 RUN wget --quiet --no-cookies http://apache.rediris.es/tomcat/tomcat-7/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz -O /tmp/tomcat.tgz && \

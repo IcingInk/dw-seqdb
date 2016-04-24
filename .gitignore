@@ -15,7 +15,6 @@ srv/logs/*txt
 srv/releases/seqdbweb.war
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
